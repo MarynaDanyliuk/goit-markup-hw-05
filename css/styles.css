@@ -176,6 +176,8 @@ a {
 
 .site-nav .link {
   color: var(--title-txt-color);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -188,6 +190,7 @@ a {
 
 .contacts-nav .link {
   color: var(--primary-txt-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
@@ -437,9 +440,10 @@ a {
   align-items: center;
   background-color: transparent;
 
-  transition-property: background-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .social-net-link:hover,
@@ -458,9 +462,10 @@ a {
   width: 20px;
   fill: var(--icon-color);
 
-  transition-property: fill;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .team-info {
@@ -489,9 +494,10 @@ a {
   align-items: center;
   justify-content: center;
 
-  transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: ;
+  transition-duration: ;
+  transition-timing-function: ; */
 }
 
 .clients-icon {
@@ -500,9 +506,10 @@ a {
   display: block;
   fill: var(--icon-color);
 
-  transition-property: fill;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .clients-link:hover,
@@ -535,6 +542,8 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 9px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cont-nav-footer:hover,
@@ -580,9 +589,10 @@ a {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
 
-  transition-property: background-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .social-net-link.foot:hover,
@@ -618,9 +628,10 @@ a {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
 
-  transition-property: background-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .button.primary:hover,
@@ -639,7 +650,10 @@ a {
 
   /* box-shadow: transparent; */
 
-  transition-property: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -649,7 +663,7 @@ a {
 
   transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .button.secondary:hover,
@@ -716,9 +730,10 @@ a {
 .portfolio-card .link {
   /* box-shadow: transparent; */
 
-  transition-property: box-shadow;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .portfolio-card:nth-child(3n) {
